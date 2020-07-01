@@ -55,6 +55,7 @@ Song Name|✓|✓|cool
 Artist Name|✓|✓|that’s nice
 Like Song|✖|✓|really?
 Playlist/Context Title|✖|✓|bummer
+Playback Device Switch|✖|✓|heinous.
 Follow Counts|✖|✓|lame
 Popularity Stats|✖|✓|dammit
 Listing of Playlists|✖|✓|janet!
