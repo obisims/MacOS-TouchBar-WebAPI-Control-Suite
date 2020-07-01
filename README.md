@@ -5,17 +5,19 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want to control spotify from my touchbar if i feel like.
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want a simple user experience for quick actions
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.
-
+<p align="center">
 <img src="reffs/inAction.gif" align="right"
-alt="Spotify from touch bar simulated" width="339" height="240">
+alt="Spotify from touch bar simulated" width="885" height="626">
+</p>
 ## What's even the point?
-### [I ♥︎ spotify duh](https://open.spotify.com/user/12121388895?si=o3cY8864Q2eX3b8nXs4I_A){:target="_blank" rel="noopener"} but also...
+
+### <a href="https://open.spotify.com/user/12121388895" target="_blank">I ♥︎ spotify duh</a> but also...
 So last week i smashed the screen of my 2015 macbook Pro (still sour) which led to a replacement which had one of these touch bars that i didn't see much utility in until i saw Better Touch Tools and checked out My Touchbar. My Rules. which got me excited to do something with it and the main thing that i do on my computer, regardless of task, is listen to spotify.
 
 Unfortunately MTMR's custom stuff runs on AppleScript and Spotify doesn't dig that too much, thankfully we can give their WebAPI a reach-around with Python using Spotipy which gives us a more reasonable control to our spotify experience.
-
-![Spotify from touch bar simulated](reffs/WhenMusicStarts.gif){:target="_blank" rel="noopener"}
-
+<p align="center">
+<img src="reffs/WhenMusicStarts.gif" width="900">
+</p>
 Some examples of the difference in access...
 ||AppleScript|WebAPI||
 |---|---|---|---|
@@ -34,24 +36,25 @@ Some examples of the difference in access...
 ## Contexts Examples
 
 #### Artist
-![Spotify from touch bar simulated](reffs/Context-Artist.gif){:target="_blank" rel="noopener"}
+
+![Spotify from touch bar simulated](reffs/Context-Artist.gif)
 #### Current User Playlist with some followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Own.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/Context-Playlist-Own.png)
 #### Current User Playlist with no followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Own_NoFollowers.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/Context-Playlist-Own_NoFollowers.png)
 #### Playlist by some user
-![Spotify from touch bar simulated](reffs/Context-Playlist-aUser.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/Context-Playlist-aUser.png)
 #### Radio
-![Spotify from touch bar simulated](reffs/Context-Playlist-Radio.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/Context-Playlist-Radio.png)
 #### Spotify Playlist with a bunch of followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-BunchaFollowers.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-BunchaFollowers.png)
 #### Spotify Playlist with no followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-NoFollowers.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-NoFollowers.png)
 #### Album
-![Spotify from touch bar simulated](reffs/Context-Album.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/Context-Album.png)
 
 ## WTF is going on?
-![Spotify from touch bar simulated](reffs/flo_ControlSuiteGen.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/flo_ControlSuiteGen.png)
 
 ## Install Notes
 Will add to, still need to figure out what the easiest way to move it around is. So far i think it's this?
@@ -78,15 +81,15 @@ idk what is needed but here is where i'm putting stuff
 
 ## Details
 ### Shuffle & Repeat Buttons
-![Spotify from touch bar simulated](reffs/flo_ShuffleAndRepeatButtons.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/flo_ShuffleAndRepeatButtons.png)
 ### Like ♥︎
-![Spotify from touch bar simulated](reffs/flo_like.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/flo_like.png)
 ### Current Artist
-![Spotify from touch bar simulated](reffs/flo_currentArtist.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/flo_currentArtist.png)
 ### Context Panel (Playlist/Artist)
-![Spotify from touch bar simulated](reffs/flo_contextPanel.png){:target="_blank" rel="noopener"}
+![Spotify from touch bar simulated](reffs/flo_contextPanel.png)
 
 
 
 thanks for readings
-here's [my spotify](https://open.spotify.com/user/12121388895){:target="_blank" rel="noopener"} if you wanna listen to stuff.
+here's <a href="https://open.spotify.com/user/12121388895" target="_blank">my spotify</a> if you wanna listen to stuff.
