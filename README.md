@@ -9,6 +9,7 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 <img src="reffs/inAction.gif" align="right"
 alt="Spotify from touch bar simulated" width="900" height="440">
 </p>
+
 ## What's even the point?
 
 ### <a href="https://open.spotify.com/user/12121388895" target="_blank">I ♥︎ spotify duh</a> but also...
