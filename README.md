@@ -1,13 +1,38 @@
 # MacOS TouchBar WebAPI Control Suite
+
 Putting together some stuff using spotipy and mtmr to control spoitify from the macOS touchbar.
 <img src="https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png" align="right"
      alt="Spotify Dev Logo" width="120">
-> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want to control spotify from my touchbar if i feel like.
-> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want a simple user experience for quick actions
-> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.
 
-<img src="reffs/inAction.gif" align="right"
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want to control spotify from my touchbar if i feel like.<br>
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want a simple user experience for quick actions.<br>
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.<br>
+
+<img src="reffs/inAction.gif"
 alt="Spotify from touch bar simulated" width="900" height="560">
+
+- [What's even the point?](#whats-even-the-point)
+  * [Access Difference](#access-difference)
+- [Context Examples](#context-examples)
+  * [Artist](#artist)
+  * [Current User Playlist with some followers](#current-user-playlist-with-some-followers)
+  * [Current User Playlist with no followers](#current-user-playlist-with-no-followers)
+  * [Playlist by some user](#playlist-by-some-user)
+  * [Radio](#radio)
+  * [Spotify Playlist with a bunch of followers](#spotify-playlist-with-a-bunch-of-followers)
+  * [Spotify Playlist with no followers](#spotify-playlist-with-no-followers)
+  * [Album](#album)
+- [WTF is going on?](#wtf-is-going-on)
+- [Install Notes](#install-notes)
+  * [Changes to files](#changes-to-files)
+    + [spotipy filepath](#spotipy-filepath)
+    + [spotify API creds](#spotify-api-creds)
+    + [movingFiles](#movingfiles)
+ - [Details](#details)
+   * [Shuffle & Repeat Buttons](#shuffle--repeat-buttons)
+   * [Like ♥︎](#like-%EF%B8%8E)
+   * [Current Artist](#current-artist)
+   * [Context Panel (Playlist/Artist)](#context-panel-playlistartist)
 
 ## What's even the point?
 
@@ -18,6 +43,8 @@ Unfortunately MTMR's custom stuff runs on AppleScript and Spotify doesn't dig th
 <p align="center">
 <img src="reffs/WhenMusicStarts.gif" width="900">
 </p>
+
+### Access Difference
 Some examples of the difference in access...
 
 **Ability**|**AppleScript**|**WebAPI**|**Comment**
@@ -33,6 +60,7 @@ Popularity Stats|✖|✓|dammit
 Listing of Playlists|✖|✓|janet!
 Saving songs to Playlists|✖|✓|bogus.
 Playlist Author|✖|✓|aww
+
 
 ## Context Examples
 > #### Artist
