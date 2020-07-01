@@ -7,7 +7,7 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.
 <p align="center">
 <img src="reffs/inAction.gif" align="right"
-alt="Spotify from touch bar simulated" width="900" height="440">
+alt="Spotify from touch bar simulated" width="900" height="560">
 </p>
 
 ## What's even the point?
@@ -35,28 +35,33 @@ Listing of Playlists|✖|✓|janet!
 Saving songs to Playlists|✖|✓|bogus.
 Playlist Author|✖|✓|aww
 
-## Contexts Examples
+## Context Examples
+> #### Artist
+> ![Spotify from touch bar simulated](reffs/Context-Artist.gif)
 
-#### Artist
+> #### Current User Playlist with some followers
+> ![Spotify from touch bar simulated](reffs/Context-Playlist-Own.png)
 
-![Spotify from touch bar simulated](reffs/Context-Artist.gif)
-#### Current User Playlist with some followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Own.png)
-#### Current User Playlist with no followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Own_NoFollowers.png)
-#### Playlist by some user
-![Spotify from touch bar simulated](reffs/Context-Playlist-aUser.png)
-#### Radio
-![Spotify from touch bar simulated](reffs/Context-Playlist-Radio.png)
-#### Spotify Playlist with a bunch of followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-BunchaFollowers.png)
-#### Spotify Playlist with no followers
-![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-NoFollowers.png)
-#### Album
-![Spotify from touch bar simulated](reffs/Context-Album.png)
+> #### Current User Playlist with no followers
+> ![Spotify from touch bar simulated](reffs/Context-Playlist-Own_NoFollowers.png)
+
+> #### Playlist by some user
+> ![Spotify from touch bar simulated](reffs/Context-Playlist-aUser.png)
+
+> #### Radio
+> ![Spotify from touch bar simulated](reffs/Context-Playlist-Radio.png)
+
+> #### Spotify Playlist with a bunch of followers
+> ![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-BunchaFollowers.png)
+
+> #### Spotify Playlist with no followers
+> ![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-NoFollowers.png)
+
+> #### Album
+> ![Spotify from touch bar simulated](reffs/Context-Album.png)
 
 ## WTF is going on?
-![Spotify from touch bar simulated](reffs/flo_ControlSuiteGen.png)
+> ![Spotify from touch bar simulated](reffs/flo_ControlSuiteGen.png)
 
 ## Install Notes
 Will add to, still need to figure out what the easiest way to move it around is. So far i think it's this?
