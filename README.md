@@ -19,19 +19,20 @@ Unfortunately MTMR's custom stuff runs on AppleScript and Spotify doesn't dig th
 <img src="reffs/WhenMusicStarts.gif" width="900">
 </p>
 Some examples of the difference in access...
-|Ability|AppleScript|WebAPI|Comment|
-|---|---|---|---|
-|Play/Pause|✓`|✓ |yeah, duh
-|Next/Prev Song|✓|✓ |sure
-|Song Name|✓|✓|cool
-|Artist Name|✓|✓|that's nice
-|Like Song|✖|✓|really?
-|Playlist/Context Title|✖|✓|bummer
-|Follow Counts|✖|✓|lame
-|Popularity Stats|✖|✓|dammit
-|Listing of Playlists|✖|✓|janet!
-|Saving songs to Playlists|✖|✓|bogus.
-|Playlist Author|✖|✓|aww
+
+**Ability**|**AppleScript**|**WebAPI**|**Comment**
+:-----:|:-----:|:-----:|:-----:
+Play/Pause|✓`|✓|yeah, duh
+Next/Prev Song|✓|✓|sure
+Song Name|✓|✓|cool
+Artist Name|✓|✓|that’s nice
+Like Song|✖|✓|really?
+Playlist/Context Title|✖|✓|bummer
+Follow Counts|✖|✓|lame
+Popularity Stats|✖|✓|dammit
+Listing of Playlists|✖|✓|janet!
+Saving songs to Playlists|✖|✓|bogus.
+Playlist Author|✖|✓|aww
 
 ## Contexts Examples
 
