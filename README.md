@@ -86,16 +86,17 @@ idk what is needed but here is where i'm putting stuff
 
 
 ## Details
-### Shuffle & Repeat Buttons
-![Spotify from touch bar simulated](reffs/flo_ShuffleAndRepeatButtons.png)
-### Like ♥︎
-![Spotify from touch bar simulated](reffs/flo_like.png)
-### Current Artist
-![Spotify from touch bar simulated](reffs/flo_currentArtist.png)
-### Context Panel (Playlist/Artist)
-![Spotify from touch bar simulated](reffs/flo_contextPanel.png)
+> ### Shuffle & Repeat Buttons
+> ![Spotify from touch bar simulated](reffs/flo_ShuffleAndRepeatButtons.png)
+
+> ### Like ♥︎
+> ![Spotify from touch bar simulated](reffs/flo_like.png)
+
+> ### Current Artist
+> ![Spotify from touch bar simulated](reffs/flo_currentArtist.png)
+
+> ### Context Panel (Playlist/Artist)
+> ![Spotify from touch bar simulated](reffs/flo_contextPanel.png)
 
 
-
-thanks for readings
-here's <a href="https://open.spotify.com/user/12121388895" target="_blank">my spotify</a> if you wanna listen to stuff.
+#### thanks for reading here's <b><a href="https://open.spotify.com/user/12121388895" target="_blank">my spotify</a></b> if you wanna listen to stuff.
