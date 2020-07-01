@@ -7,7 +7,7 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.
 <p align="center">
 <img src="reffs/inAction.gif" align="right"
-alt="Spotify from touch bar simulated" width="885" height="626">
+alt="Spotify from touch bar simulated" width="900" height="440">
 </p>
 ## What's even the point?
 
@@ -19,7 +19,7 @@ Unfortunately MTMR's custom stuff runs on AppleScript and Spotify doesn't dig th
 <img src="reffs/WhenMusicStarts.gif" width="900">
 </p>
 Some examples of the difference in access...
-||AppleScript|WebAPI||
+|Ability|AppleScript|WebAPI|Comment|
 |---|---|---|---|
 |Play/Pause|✓`|✓ |yeah, duh
 |Next/Prev Song|✓|✓ |sure
