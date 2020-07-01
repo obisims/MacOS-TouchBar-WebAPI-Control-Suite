@@ -99,4 +99,5 @@ idk what is needed but here is where i'm putting stuff
 > ![Spotify from touch bar simulated](reffs/flo_contextPanel.png)
 
 
-#### thanks for reading here's <b><a href="https://open.spotify.com/user/12121388895" target="_blank">my spotify</a></b> if you wanna listen to stuff.
+#### thanks for reading
+here's <b><a href="https://open.spotify.com/user/12121388895" target="_blank">my spotify</a></b> if you wanna listen to stuff.
