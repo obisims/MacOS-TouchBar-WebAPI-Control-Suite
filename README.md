@@ -1,10 +1,10 @@
 # MacOS TouchBar WebAPI Control Suite
 Putting together some stuff using spotipy and mtmr to control spoitify from the macOS touchbar.
 <img src="https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png" align="right"
-     alt="Spotify Dev Logo" width="120">
-> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="25"> I want to control spotify from my touchbar if i feel like.
-> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="25"> I want a simple user experience for quick actions
-> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="25"> I am also very... very bored.
+     alt="Spotify Dev Logo" width="144" height="203">
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want to control spotify from my touchbar if i feel like.
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want a simple user experience for quick actions
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.
 
 ![Spotify from touch bar simulated](reffs/inAction.gif)
 
@@ -13,6 +13,8 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 So last week i smashed the screen of my 2015 macbook Pro (still sour) which led to a replacement which had one of these touch bars that i didn't see much utility in until i saw Better Touch Tools and checked out My Touchbar. My Rules. which got me excited to do something with it and the main thing that i do on my computer, regardless of task, is listen to spotify.
 
 Unfortunately MTMR's custom stuff runs on AppleScript and Spotify doesn't dig that too much, thankfully we can give their WebAPI a reach-around with Python using Spotipy which gives us a more reasonable control to our spotify experience.
+
+![Spotify from touch bar simulated](reffs/WhenMusicStarts.gif)
 
 Some examples of the difference in access...
 ||AppleScript|WebAPI||
@@ -28,6 +30,25 @@ Some examples of the difference in access...
 |Listing of Playlists|✖|✓|janet!
 |Saving songs to Playlists|✖|✓|bogus.
 |Playlist Author|✖|✓|aww
+
+## Contexts Examples
+
+#### Artist
+![Spotify from touch bar simulated](reffs/Context-Artist.gif)
+#### Current User Playlist with some followers
+![Spotify from touch bar simulated](reffs/Context-Playlist-Own.png)
+#### Current User Playlist with no followers
+![Spotify from touch bar simulated](reffs/Context-Playlist-Own_NoFollowers.png)
+#### Playlist by some user
+![Spotify from touch bar simulated](reffs/Context-Playlist-aUser.png)
+#### Radio
+![Spotify from touch bar simulated](reffs/Context-Playlist-Radio.png)
+#### Spotify Playlist with a bunch of followers
+![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-BunchaFollowers.png)
+#### Spotify Playlist with no followers
+![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-NoFollowers.png)
+#### Album
+![Spotify from touch bar simulated](reffs/Context-Album.png)
 
 ## WTF is going on?
 ![Spotify from touch bar simulated](reffs/flo_ControlSuiteGen.png)
