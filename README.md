@@ -1,8 +1,12 @@
 # MacOS TouchBar WebAPI Control Suite
 Putting together some stuff using spotipy and mtmr to control spoitify from the macOS touchbar.
+<img src="https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png" align="right"
+     alt="Spotify Dev Logo" width="120">
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="25"> I want to control spotify from my touchbar if i feel like.
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="25"> I want a simple user experience for quick actions
+> <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="25"> I am also very... very bored.
 
-![Alt text](https://developer.spotify.com/assets/branding-guidelines/color1@2x.png)
-
+![Spotify from touch bar simulated](reffs/inAction.gif)
 
 ## What's even the point?
 
@@ -233,8 +237,8 @@ con_v1-->con_v2
 
 ```
 
-## Notes
-Will add to.
+## Install Notes
+Will add to, still need to figure out what the easiest way to move it around is. So far i think it's this?
 ### Changes to files
 #### spotipy filepath
 all `API_XXX.scpt` files need the `pythonpath` changed to wherever your spotipy installation directory is.
@@ -242,3 +246,15 @@ all `API_XXX.scpt` files need the `pythonpath` changed to wherever your spotipy 
 set pythonPath to (the POSIX path of (path to home folder)) & "{path to spotipy-master}"
 ```
 #### spotify API creds
+this section of `AuthedSpotifyObjectTemplate.py` needs to be filled out and retitled `AuthedSpotifyObject.py`
+```python
+CLIENT_ID = "{YOUR CLIENT ID}"
+CLIENT_SECRET = "{YOUR CLIENT SECRET}"
+username = "{YOUR USERNAME}"
+```
+#### movingFiles
+idk what is needed but here is where i'm putting stuff
+`Checkers`&`Actions` folders into `Users/Shared/MTMR`
+`Spotipy_TouchBar` folder into `.../spotipy` dir.
+
+### <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Font_Awesome_5_brands_spotify.svg" width="15"> <b>That was fun... i'm bored again.</b>
