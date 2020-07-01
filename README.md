@@ -5,10 +5,9 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want to control spotify from my touchbar if i feel like.
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want a simple user experience for quick actions
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.
-<p align="center">
+
 <img src="reffs/inAction.gif" align="right"
 alt="Spotify from touch bar simulated" width="900" height="560">
-</p>
 
 ## What's even the point?
 
