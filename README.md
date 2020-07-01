@@ -11,6 +11,25 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 <img src="reffs/inAction.gif"
 alt="Spotify from touch bar simulated" width="900" height="560">
 
+
+## Feature Status
+Some examples of the difference in access...
+`✓ Done` `🚧 In Progress` `🔮 Wishfully``✖ Denied?`
+
+**FT**|**Status**|**Using** 
+-----:|:-----:|:-----:
+Toggle Like Current Song|✓|WebAPI
+Toggle Repeat and Shuffle|✓|AS
+Turn On And/Or Play Or Skip|✓|AS
+Open Artist Page|✓|WebAPI
+Open Album Page|✓|WebAPI
+Open Playlist/Context Page|✓|WebAPI
+TouchBar Context: Artist|✓|WebAPI
+TouchBar Context: Playlist|✓|WebAPI
+TouchBar Context: Album|🔮|WebAPI
+BetterAuth|🚧|WebAPI
+Play Random User Playlist|✓|WebAPI
+
 - [What's even the point?](#whats-even-the-point)
   * [Access Difference](#access-difference)
 - [Context Examples](#context-examples)
@@ -47,9 +66,9 @@ Unfortunately MTMR's custom stuff runs on AppleScript and Spotify doesn't dig th
 ### Access Difference
 Some examples of the difference in access...
 
-**Ability**|**AppleScript**|**WebAPI**|**Comment**
+**Ability**|**AppleScript**|**WebAPI**|🤨
 :-----:|:-----:|:-----:|:-----:
-Play/Pause|✓`|✓|yeah, duh
+Play/Pause|✓|✓|yeah, duh
 Next/Prev Song|✓|✓|sure
 Song Name|✓|✓|cool
 Artist Name|✓|✓|that’s nice
@@ -61,7 +80,6 @@ Popularity Stats|✖|✓|dammit
 Listing of Playlists|✖|✓|janet!
 Saving songs to Playlists|✖|✓|bogus.
 Playlist Author|✖|✓|aww
-
 
 ## Context Examples
 > #### Artist
