@@ -11,10 +11,12 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 <img src="reffs/inAction.gif" alt="Spotify from touch bar simulated" width="590" height="417">
 
 ## Feature Status
-Some examples of the difference in access...
-`✓ Done` `🚧 In Progress` `🔮 Wishfully` `✖ Denied?`
+`✓ Done`
+`🚧 In Progress` 
+`🔮 Wishfully` 
+`✖ Denied?`
 
-**FT**|**Status**|**Using** 
+**Ft**|**Status**|**Using** 
 -----:|:-----:|:-----:
 Toggle Like Current Song|✓|WebAPI
 Toggle Repeat and Shuffle|✓|AS
@@ -29,8 +31,10 @@ Better Auth|🚧|WebAPI
 Play Random User Playlist|✓|WebAPI
 Detailed User Stats|🔮|WebAPI
 Tempo to animation|🔮|WebAPI
-Activate on spotify focus|🚧|AS
+Activate on spotify focus|✓|AS
 Better file organising|🚧|WebAPI
+Switch Playback Device|🚧|WebAPI
+Add Current Song to playlist (w/o popup?) |🔮|WebAPI
 
 - [What's even the point?](#whats-even-the-point)
   * [Access Difference](#access-difference)
@@ -85,30 +89,39 @@ Playlist Author|✖|✓|aww
 
 ## Context Examples
 > #### Artist
+> Rotating Genre of artist, Followers, Spotify Popularity
 > ![Spotify Song context: Artist](reffs/Context-Artist.gif)
 
 > #### Current User Playlist with some followers
+> Playlist Name, Followers
 > ![Spotify Song context: Playlist, Own](reffs/Context-Playlist-Own.png)
 
 > #### Current User Playlist with no followers
+> Playlist Name
 > ![Spotify Song context: Playlist, Own, No Followers](reffs/Context-Playlist-Own_NoFollowers.png)
 
 > #### Playlist by some user
+> Playlist Name, by Playlist Author
 > ![Spotify Song context: Playlist, Someone Else, No Followers](reffs/Context-Playlist-aUser.png)
 
 > #### Radio
+> Radio Name, Radio Followers
 > ![Spotify Song context: Radio](reffs/Context-Playlist-Radio.png)
 
 > #### Spotify Playlist with a bunch of followers
+> Playlist Name, Followers
 > ![Spotify Song context: Playlist, Spotify, Lots of Followers](reffs/Context-Playlist-Spotify-BunchaFollowers.png)
 
 > #### Spotify Playlist with no followers
+> Playlist Name
 > ![Spotify Song context: Playlist, Spotify, No Followers](reffs/Context-Playlist-Spotify-NoFollowers.png)
 
 > #### Album
+> Oh bugger
 > ![Spotify Song context: Album](reffs/Context-Album.png)
 
 ## WTF is going on?
+> Generally MTMR is being told what to do with applescript, and we have our applescript launching python which is talking to spotify's webApi through spotipy and then handing info back to the applescript if needed.
 > ![Spotify Touch Bar Control Suite flow](reffs/flo_ControlSuiteGen.png)
 
 ## Install Notes
