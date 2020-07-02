@@ -8,9 +8,7 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want a simple user experience for quick actions.<br>
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.<br>
 
-
-![Spotify from touch bar simulated](reffs/inAction.gif)
-<img src="reffs/inAction.gif" alt="Spotify from touch bar simulated" width="1650" height="1168">
+<img src="reffs/inAction.gif" alt="Spotify from touch bar simulated" width="590" height="417">
 
 ## Feature Status
 Some examples of the difference in access...
