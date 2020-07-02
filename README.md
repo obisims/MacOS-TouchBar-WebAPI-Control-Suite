@@ -1,6 +1,6 @@
 # MacOS TouchBar WebAPI Control Suite
 
-Putting together some stuff using spotipy and mtmr to control spoitify from the macOS touchbar.
+Putting together some stuff using spotipy and mtmr to control spotify from the macOS touchbar.
 <img src="https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png" align="right"
      alt="Spotify Dev Logo" width="120">
 
@@ -61,7 +61,7 @@ Add Current Song to playlist (w/o popup?) |🔮|WebAPI
 
 ## What's even the point?
 
-### <a href="https://open.spotify.com/user/12121388895" target="_blank">I ♥︎ spotify duh</a> but also...
+### <a href="https://open.spotify.com/user/12121388895" target="_blank">I ♥︎ music, duh.</a> but also...
 So last week i smashed the screen of my 2015 macbook Pro (still sour) which led to a replacement which had one of these touch bars that i didn't see much utility in until i saw Better Touch Tools and checked out My Touchbar. My Rules. which got me excited to do something with it and the main thing that i do on my computer, regardless of task, is listen to spotify.
 
 Unfortunately MTMR's custom stuff runs on AppleScript and Spotify doesn't dig that too much, thankfully we can give their WebAPI a reach-around with Python using Spotipy which gives us a more reasonable control to our spotify experience.
