@@ -10,10 +10,11 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 
 
 ![Spotify from touch bar simulated](reffs/inAction.gif)
+<img src="reffs/inAction.gif" alt="Spotify from touch bar simulated" width="1650" height="1168">
 
 ## Feature Status
 Some examples of the difference in access...
-`✓ Done` `🚧 In Progress` `🔮 Wishfully``✖ Denied?`
+`✓ Done` `🚧 In Progress` `🔮 Wishfully` `✖ Denied?`
 
 **FT**|**Status**|**Using** 
 -----:|:-----:|:-----:
