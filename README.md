@@ -8,9 +8,8 @@ Putting together some stuff using spotipy and mtmr to control spoitify from the 
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I want a simple user experience for quick actions.<br>
 > <img src="https://developer.spotify.com/assets/branding-guidelines/color1@2x.png" width="12"> I am also very... very bored.<br>
 
-<img src="reffs/inAction.gif"
-alt="Spotify from touch bar simulated" width="900" height="560">
 
+![Spotify from touch bar simulated](reffs/inAction.gif)
 
 ## Feature Status
 Some examples of the difference in access...
@@ -27,8 +26,12 @@ Open Playlist/Context Page|✓|WebAPI
 TouchBar Context: Artist|✓|WebAPI
 TouchBar Context: Playlist|✓|WebAPI
 TouchBar Context: Album|🔮|WebAPI
-BetterAuth|🚧|WebAPI
+Better Auth|🚧|WebAPI
 Play Random User Playlist|✓|WebAPI
+Detailed User Stats|🔮|WebAPI
+Tempo to animation|🔮|WebAPI
+Activate on spotify focus|🚧|AS
+Better file organising|🚧|WebAPI
 
 - [What's even the point?](#whats-even-the-point)
   * [Access Difference](#access-difference)
@@ -83,31 +86,31 @@ Playlist Author|✖|✓|aww
 
 ## Context Examples
 > #### Artist
-> ![Spotify from touch bar simulated](reffs/Context-Artist.gif)
+> ![Spotify Song context: Artist](reffs/Context-Artist.gif)
 
 > #### Current User Playlist with some followers
-> ![Spotify from touch bar simulated](reffs/Context-Playlist-Own.png)
+> ![Spotify Song context: Playlist, Own](reffs/Context-Playlist-Own.png)
 
 > #### Current User Playlist with no followers
-> ![Spotify from touch bar simulated](reffs/Context-Playlist-Own_NoFollowers.png)
+> ![Spotify Song context: Playlist, Own, No Followers](reffs/Context-Playlist-Own_NoFollowers.png)
 
 > #### Playlist by some user
-> ![Spotify from touch bar simulated](reffs/Context-Playlist-aUser.png)
+> ![Spotify Song context: Playlist, Someone Else, No Followers](reffs/Context-Playlist-aUser.png)
 
 > #### Radio
-> ![Spotify from touch bar simulated](reffs/Context-Playlist-Radio.png)
+> ![Spotify Song context: Radio](reffs/Context-Playlist-Radio.png)
 
 > #### Spotify Playlist with a bunch of followers
-> ![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-BunchaFollowers.png)
+> ![Spotify Song context: Playlist, Spotify, Lots of Followers](reffs/Context-Playlist-Spotify-BunchaFollowers.png)
 
 > #### Spotify Playlist with no followers
-> ![Spotify from touch bar simulated](reffs/Context-Playlist-Spotify-NoFollowers.png)
+> ![Spotify Song context: Playlist, Spotify, No Followers](reffs/Context-Playlist-Spotify-NoFollowers.png)
 
 > #### Album
-> ![Spotify from touch bar simulated](reffs/Context-Album.png)
+> ![Spotify Song context: Album](reffs/Context-Album.png)
 
 ## WTF is going on?
-> ![Spotify from touch bar simulated](reffs/flo_ControlSuiteGen.png)
+> ![Spotify Touch Bar Control Suite flow](reffs/flo_ControlSuiteGen.png)
 
 ## Install Notes
 Will add to, still need to figure out what the easiest way to move it around is. So far i think it's this?
@@ -126,7 +129,7 @@ username = "{YOUR USERNAME}"
 ```
 #### movingFiles
 idk what is needed but here is where i'm putting stuff
-`Checkers`&`Actions` folders into `Users/Shared/MTMR`
+`Checkers`&`Actions` folders into `/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/`, you will need to change this path in the `.json` to wherever your `MacOS-TouchBar-WebAPI-Control-Suite` dir is.
 `Spotipy_TouchBar` folder into `.../spotipy` dir.
 
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Font_Awesome_5_brands_spotify.svg" width="15"> <b>That was fun... i'm bored again.</b>
@@ -134,16 +137,16 @@ idk what is needed but here is where i'm putting stuff
 
 ## Details
 > ### Shuffle & Repeat Buttons
-> ![Spotify from touch bar simulated](reffs/flo_ShuffleAndRepeatButtons.png)
+> ![Shuffle and repeat button flow](reffs/flo_ShuffleAndRepeatButtons.png)
 
 > ### Like ♥︎
-> ![Spotify from touch bar simulated](reffs/flo_like.png)
+> ![Like button flow](reffs/flo_like.png)
 
 > ### Current Artist
-> ![Spotify from touch bar simulated](reffs/flo_currentArtist.png)
+> ![Current artist button flow](reffs/flo_currentArtist.png)
 
 > ### Context Panel (Playlist/Artist)
-> ![Spotify from touch bar simulated](reffs/flo_contextPanel.png)
+> ![Context panel flow](reffs/flo_contextPanel.png)
 
 
 #### thanks for reading

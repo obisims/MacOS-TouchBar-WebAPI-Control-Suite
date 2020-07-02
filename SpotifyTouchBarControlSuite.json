@@ -18,11 +18,11 @@
  {
     "type": "appleScriptTitledButton",
       "source": {
-        "filePath": "/Users/Shared/MTMR/Checkers/Shuffle_IsOn.scpt"
+        "filePath": "/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Checkers/Shuffle_IsOn.scpt"
       },
       "action": "appleScript",
       "actionAppleScript": {
-          "filePath":"/Users/Shared/MTMR/Actions/Toggle_Shuffle.scpt"
+          "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/Toggle_Shuffle.scpt"
       
       },
       "refreshInterval": 2,
@@ -36,11 +36,11 @@
    "type": "appleScriptTitledButton",
    "title":" ",
      "source": {
-       "filePath": "/Users/Shared/MTMR/Checkers/Shuffle_IsOff.scpt"
+       "filePath": "/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Checkers/Shuffle_IsOff.scpt"
      },
      "action": "appleScript",
      "actionAppleScript": {
-         "filePath":"/Users/Shared/MTMR/Actions/Toggle_Shuffle.scpt"
+         "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/Toggle_Shuffle.scpt"
      
      },
      "refreshInterval": 2,
@@ -53,11 +53,11 @@
  {
     "type": "appleScriptTitledButton",
       "source": {
-        "filePath": "/Users/Shared/MTMR/Checkers/Repeat_IsOn.scpt"
+        "filePath": "/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Checkers/Repeat_IsOn.scpt"
       },
       "action": "appleScript",
       "actionAppleScript": {
-          "filePath":"/Users/Shared/MTMR/Actions/Toggle_Repeat.scpt"
+          "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/Toggle_Repeat.scpt"
       
       },
       "refreshInterval": 2,
@@ -73,11 +73,11 @@
     "type": "appleScriptTitledButton",
     "title":" ",
       "source": {
-        "filePath": "/Users/Shared/MTMR/Checkers/Repeat_IsOff.scpt"
+        "filePath": "/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Checkers/Repeat_IsOff.scpt"
       },
       "action": "appleScript",
       "actionAppleScript": {
-          "filePath":"/Users/Shared/MTMR/Actions/Toggle_Repeat.scpt"
+          "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/Toggle_Repeat.scpt"
       
       },
       "refreshInterval": 2,
@@ -94,11 +94,11 @@
    "type": "appleScriptTitledButton",
  
    "source": {
-     "filePath": "/Users/Shared/MTMR/Checkers/API_isCurrentTrackLiked.scpt"
+     "filePath": "/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Checkers/API_isCurrentTrackLiked.scpt"
    },
    "action": "appleScript",
    "actionAppleScript": {
-       "filePath":"/Users/Shared/MTMR/Actions/API_Toggle_Like.scpt"
+       "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/API_Toggle_Like.scpt"
    
    },
    "refreshInterval": 2,
@@ -108,7 +108,7 @@
    
    "longAction": "appleScript",
    "longActionAppleScript": {
-       "filePath":"/Users/Shared/MTMR/Actions/API_openAlbum.scpt"
+       "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/API_openAlbum.scpt"
    }
  },
  
@@ -116,11 +116,11 @@
     "type": "appleScriptTitledButton",
     
     "source": {
-      "filePath": "/Users/Shared/MTMR/Checkers/CurrentArtist.scpt"
+      "filePath": "/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Checkers/CurrentArtist.scpt"
     },
     "action": "appleScript",
     "actionAppleScript": {
-        "filePath":"/Users/Shared/MTMR/Actions/LaunchOrPlayOrNext.scpt"
+        "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/LaunchOrPlayOrNext.scpt"
     
     },
     "refreshInterval": 5,
@@ -132,7 +132,7 @@
     },
       "longAction": "appleScript",
     "longActionAppleScript": {
-        "filePath":"/Users/Shared/MTMR/Actions/API_openArtist.scpt"
+        "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/API_openArtist.scpt"
     }
   },
   
@@ -140,11 +140,11 @@
     "type": "appleScriptTitledButton",
   
     "source": {
-      "filePath": "/Users/Shared/MTMR/Checkers/API_grabPlaylistContext.scpt"
+      "filePath": "/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Checkers/API_grabPlaylistContext.scpt"
     },
     "action": "appleScript",
     "actionAppleScript": {
-        "filePath":"/Users/Shared/MTMR/Actions/API_playRandomPlaylist.scpt"
+        "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/API_playRandomPlaylist.scpt"
     
     },
     "refreshInterval": 5,
@@ -153,7 +153,7 @@
     "disableMarquee": false,
       "longAction": "appleScript",
     "longActionAppleScript": {
-        "filePath":"/Users/Shared/MTMR/Actions/API_openPlaylistOrContext.scpt"
+        "filePath":"/Users/mohawkmogwai/Documents/Coding/github/MacOS-TouchBar-WebAPI-Control-Suite/Actions/API_openPlaylistOrContext.scpt"
     }
   },
   
