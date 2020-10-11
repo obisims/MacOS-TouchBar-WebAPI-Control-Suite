@@ -27,7 +27,7 @@ Open Playlist/Context Page|✓|WebAPI
 TouchBar Context: Artist|✓|WebAPI
 TouchBar Context: Playlist|✓|WebAPI
 TouchBar Context: Album|🔮|WebAPI
-Better Auth|🚧|WebAPI
+**Important**: FIX Auth Flow|🚧|WebAPI
 Play Random User Playlist|✓|WebAPI
 Detailed User Stats|🔮|WebAPI
 Tempo to animation|🔮|WebAPI
